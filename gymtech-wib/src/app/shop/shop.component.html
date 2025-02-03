@@ -1,0 +1,118 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Equipment</title>
+    <link rel="stylesheet" href="shop.component.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="header">Gym Equipment</h3>
+        <div class="box-container">
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://dks.scene7.com/is/image/dkscdn/20MCYA150LBSTCKHMGMU_is?$UTPMain$">
+                    <div class="card-content">
+                        <h3>Marcy 150lb Stack Home Gym</h3>
+                        <div class="price-quantity">
+                            <span class="price">$400</span>
+                        </div>
+                        <div class="quantity-container">
+                            <button class="minus" (click)="decrementQuantity(marcy)">-</button>
+                            <span class="count">{{ marcy.qnt }}</span>
+                            <button class="plus" (click)="incrementQuantity(marcy)">+</button>
+                        </div>
+                        <button class="btn add-to-cart" (click)="addToCart(marcy)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71HEqww6NtL.AC_UL480_FMwebp_QL65.jpg">
+                    <div class="card-content">
+                        <h3>Marcy home gym</h3>
+                        <div class="price-quantity">
+                            <span class="price">$300</span>
+                        </div>
+                        <div class="quantity-container">
+                            <button class="minus" (click)="decrementQuantity(abs)">-</button>
+                            <span class="count">{{ abs.qnt }}</span>
+                            <button class="plus" (click)="incrementQuantity(abs)">+</button>
+                        </div>
+                        <button class="btn add-to-cart" (click)="addToCart(abs)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61Jnb9cdC9L.AC_UL480_FMwebp_QL65.jpg">
+                    <div class="card-content">
+                        <h3>HAND GRIPPER STRENGTHENER
+                        </h3>
+                        <div class="price-quantity">
+                            <span class="price">$350</span>
+                        </div>
+                        <div class="quantity-container">
+                            <button class="minus" (click)="decrementQuantity(adductors)">-</button>
+                            <span class="count">{{ adductors.qnt }}</span>
+                            <button class="plus" (click)="incrementQuantity(adductors)">+</button>
+                        </div>
+                        <button class="btn add-to-cart" (click)="addToCart(adductors)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/71D1LsjgeqL.AC_UL480_FMwebp_QL65.jpg">
+                    <div class="card-content">
+                        <h3>Qualityzone Hard Plastic Foldable Push Up Board</h3>
+                        <div class="price-quantity">
+                            <span class="price">$280</span>
+                        </div>
+                        <div class="quantity-container">
+                            <button class="minus" (click)="decrementQuantity(bicep)">-</button>
+                            <span class="count">{{ bicep.qnt }}</span>
+                            <button class="plus" (click)="incrementQuantity(bicep)">+</button>
+                        </div>
+                        <button class="btn add-to-cart" (click)="addToCart(bicep)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/81FyHSIEKxS.AC_UL480_FMwebp_QL65.jpg">
+                    <div class="card-content">
+                        <h3>Gonex Barbell Pad Set for Squats Hip</h3>
+                        <div class="price-quantity">
+                            <span class="price">$400</span>
+                        </div>
+                        <div class="quantity-container">
+                            <button class="minus" (click)="decrementQuantity(chest)">-</button>
+                            <span class="count">{{ chest.qnt }}</span>
+                            <button class="plus" (click)="incrementQuantity(chest)">+</button>
+                        </div>
+                        <button class="btn add-to-cart" (click)="addToCart(chest)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/61CCbx3dtkS.AC_UL480_FMwebp_QL65.jpg">
+                    <div class="card-content">
+                        <h3>YOSUDA Indoor Cycling Bike</h3>
+                        <div class="price-quantity">
+                            <span class="price">$370</span>
+                        </div>
+                        <div class="quantity-container">
+                            <button class="minus" (click)="decrementQuantity(back)">-</button>
+                            <span class="count">{{ back.qnt }}</span>
+                            <button class="plus" (click)="incrementQuantity(back)">+</button>
+                        </div>
+                        <button class="btn add-to-cart" (click)="addToCart(back)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>

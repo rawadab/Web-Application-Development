@@ -1,0 +1,100 @@
+/* Container styling */
+.cart_section {
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Table styling */
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    /* Ensure borders are not separated */
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    /* Black border for the table */
+}
+
+th,
+td {
+    border: 1px solid black;
+    /* Black border between columns and rows */
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 16px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /* Light grey for odd rows */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+    /* Slightly darker grey for even rows */
+}
+
+tr:hover {
+    background-color: #d0d0d0;
+    /* Highlight row on hover */
+}
+
+/* Button styling */
+button {
+    background-color: #ff0000;
+    color: white;
+    border: 1px solid black;
+    /* Black border for buttons */
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+/* Buy All button */
+.button-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.buy-all {
+    background-color: #28a745;
+    color: white;
+    border: 1px solid black;
+    /* Black border for Buy All button */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buy-all:hover {
+    background-color: #218838;
+}

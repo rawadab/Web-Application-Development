@@ -1,0 +1,74 @@
+.hero {
+    background-color: #0896b6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.nav--list li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.nav--list li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav--list li a:hover {
+    color: #010044;
+}
+
+span {
+    color: #ffffff;
+}
+
+.item {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.cart-container,
+.login-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart_value {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    min-width: 1em;
+    font-size: 14px;
+}
+
+.login-icon {
+
+    color: #000000;
+    border-radius: 50%;
+    padding: 10px;
+}

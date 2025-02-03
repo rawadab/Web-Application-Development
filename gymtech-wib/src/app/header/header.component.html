@@ -1,0 +1,23 @@
+<div class="hero">
+    <h2 class="logo" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Gym-<span>Tech</span>
+    </h2>
+    <nav class="navbar">
+        <ul class="nav--list">
+            <li><a class="item" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
+            <li><a class="item" routerLink="/exercise" routerLinkActive="active"
+                    ariaCurrentWhenActive="page">Exercises</a></li>
+            <li><a class="item" routerLink="/shop" routerLinkActive="active" ariaCurrentWhenActive="page">Shop</a></li>
+            <li class="cart-container">
+                <i class="fa fa-shopping-cart badge badge-notify" routerLink="/shopCard" routerLinkActive="active"
+                    ariaCurrentWhenActive="page"></i>
+                <div class="cart_value">{{ cartValue }}</div>
+            </li>
+            <li class="login-container">
+                <i class="fa fa-user login-icon" routerLink="/login" routerLinkActive="active"
+                    ariaCurrentWhenActive="page"></i>
+            </li>
+        </ul>
+         
+    </nav>
+      
+</div>
